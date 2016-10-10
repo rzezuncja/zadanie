@@ -1,0 +1,49 @@
+#tekst 
+	{
+		max-width: 100%;
+		height:auto;
+	}
+
+@media only screen and (max-width: 1600px) 
+{
+	#img1 
+	{
+		width: 48%;
+		height:auto;
+		float: left;
+		margin-left: 1%;
+	}
+}
+
+@media only screen and (max-width: 1600px) 
+{
+	#img2 
+	{
+		width: 48%;
+		height:auto;
+		float: right;
+		margin-right: 1%;
+	}
+}
+
+@media only screen and (max-width: 400px) 
+{
+	#img1 
+	{
+		width: 100%;
+		height:auto;
+		
+	}
+}
+
+@media only screen and (max-width: 400px) 
+{
+	#img2 
+	{
+		width: 100%;
+		height:auto;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+}
+
